@@ -39,3 +39,4 @@ adb start-server && adb shell pm uninstall --user 0 com.android.cellbroadcastrec
 adb start-server && adb shell pm uninstall --user 0 com.android.cellbroadcastreceiver.overlay.common
 adb start-server && adb shell pm uninstall --user 0 com.google.android.cellbroadcastreceiver.overlay.miui
 adb start-server && adb shell pm uninstall --user 0 com.google.android.cellbroadcastservice.overlay.miui
+adb start-server && adb shell pm uninstall --user 0 com.android.cameraextensions
