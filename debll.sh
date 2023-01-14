@@ -2,7 +2,7 @@ adb start-server && adb shell pm uninstall --user 0 com.miui.aod
 adb start-server && adb shell pm uninstall --user 0 com.google.android.projection.gearhead
 adb start-server && adb shell pm uninstall --user 0 com.google.android.setupwizard
 adb start-server && adb shell pm uninstall --user 0 com.mi.globalminusscreen
-adb start-server && adb shell pm uninstall --user 0 com android.dreams.basic
+adb start-server && adb shell pm uninstall --user 0 com.android.dreams.basic
 adb start-server && adb shell pm uninstall --user 0 com.miui.extraphoto
 adb start-server && adb shell pm uninstall --user 0 com.android.bookmarkprovider
 adb start-server && adb shell pm uninstall --user 0 com.android.providers.calendar
