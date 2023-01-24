@@ -1,4 +1,11 @@
 
+
+
+
+adb start-server && adb shell pm uninstall --user 0 com.google.android.syncadapters.contacts
+adb start-server && adb shell pm uninstall --user 0 com.android.providers.contacts
+adb start-server && adb shell pm uninstall --user 0 com.google.android.contacts
+adb start-server && adb shell pm uninstall --user 0 com.miui.wmsvc
 adb start-server && adb shell pm uninstall --user 0 com.amazon.appmanager
 adb start-server && adb shell pm uninstall --user 0 com.tencent.soter.soterserver
 adb start-server && adb shell pm uninstall --user 0 com.miui.hybrid.accessory
