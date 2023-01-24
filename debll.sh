@@ -45,12 +45,13 @@ adb start-server && adb shell pm uninstall --user 0 com.android.providers.media
 adb start-server && adb shell pm uninstall --user 0 com.android.smspush
 adb start-server && adb shell pm uninstall --user 0 com.miui.mediafeature
 adb start-server && adb shell pm uninstall --user 0 com.android.mms.service
-adb start-server && adb shell pm uninstall --user 0 com.miui.core
+adb start-server && adb shell pm uninstall --user 0 com.milink.service
 adb start-server && adb shell pm uninstall --user 0 com.google.android.ext.shared
 adb start-server && adb shell pm uninstall --user 0 tv.chili.companion.android
 adb start-server && adb shell pm uninstall --user 0 com.quicinc.voice.activation
 adb start-server && adb shell pm uninstall --user 0 com.ironsource.appcloud.oobe.hutchison
 adb start-server && adb shell pm uninstall --user 0 com.google.android.apps.setupwizard.searchselector
 adb start-server && adb shell pm uninstall --user 0 com.aura.oobe.bouygues
-adb start-server && adb shell pm uninstall --user 0 de.telekom.tsc
+adb start-server && adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 adb start-server && adb shell pm uninstall --user 0 com.miui.cotaservice
+adb start-server && adb shell pm uninstall --user 0 com.xiaomi.miplay_client
