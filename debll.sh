@@ -46,3 +46,4 @@ adb start-server && adb shell pm uninstall --user 0 com.android.smspush
 adb start-server && adb shell pm uninstall --user 0 com.miui.mediafeature
 adb start-server && adb shell pm uninstall --user 0 com.android.mms.service
 adb start-server && adb shell pm uninstall --user 0 com.miui.core
+adb start-server && adb shell pm uninstall --user 0 com.google.android.ext.shared
