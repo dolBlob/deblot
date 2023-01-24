@@ -53,3 +53,4 @@ adb start-server && adb shell pm uninstall --user 0 com.ironsource.appcloud.oobe
 adb start-server && adb shell pm uninstall --user 0 com.google.android.apps.setupwizard.searchselector
 adb start-server && adb shell pm uninstall --user 0 com.aura.oobe.bouygues
 adb start-server && adb shell pm uninstall --user 0 de.telekom.tsc
+adb start-server && adb shell pm uninstall --user 0 com.miui.cotaservice
