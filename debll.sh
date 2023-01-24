@@ -41,3 +41,7 @@ adb start-server && adb shell pm uninstall --user 0 com.google.android.cellbroad
 adb start-server && adb shell pm uninstall --user 0 com.google.android.cellbroadcastservice.overlay.miui
 adb start-server && adb shell pm uninstall --user 0 com.android.cameraextensions
 adb start-server && adb shell pm uninstall --user 0 com.android.inputdevices
+adb start-server && adb shell pm uninstall --user 0 com.android.providers.media
+adb start-server && adb shell pm uninstall --user 0 com.android.smspush
+adb start-server && adb shell pm uninstall --user 0 com.miui.mediafeature
+adb start-server && adb shell pm uninstall --user 0 com.android.mms.service
