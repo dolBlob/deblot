@@ -1,6 +1,6 @@
 
 
-
+adb start-server && adb shell pm uninstall --user 0 com.xiaomi.joyose
 adb start-server && adb shell pm uninstall --user 0 com.qti.confuridialer
 adb start-server && adb shell pm uninstall --user 0 com.google.android.syncadapters.contacts
 adb start-server && adb shell pm uninstall --user 0 com.android.providers.contacts
