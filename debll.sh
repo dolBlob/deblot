@@ -19,7 +19,6 @@ adb start-server && adb shell pm uninstall --user 0 com.google.android.googlequi
 adb start-server && adb shell pm uninstall --user 0 com.google.android.apps.maps
 adb start-server && adb shell pm uninstall --user 0 com.xiaomi.glgm
 adb start-server && adb shell pm uninstall --user 0 com.google.android.apps.wellbeing
-adb start-server && adb shell pm uninstall --user 0 de.telekom.tsc
 adb start-server && adb shell pm uninstall --user 0 com.miui.micloudsync
 adb start-server && adb shell pm uninstall --user 0 com.miui.videoplayer
 adb start-server && adb shell pm uninstall --user 0 com.miui.mishare.connectivity
