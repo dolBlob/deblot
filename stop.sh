@@ -133,3 +133,13 @@ adb start-server && adb shell am force-stop io.getwombat.android
 adb start-server && adb shell am force-stop com.coinbase.android
 adb start-server && adb shell am force-stop com.google.android.contacts
 adb start-server && adb shell am force-stop com.google.android.cellbroadcastreceiver
+adb start-server && adb shell am force-stop kingmodapk.mobi
+adb start-server && adb shell am force-stop com.sanhe.clipclaps
+adb start-server && adb shell am force-stop org.fdroid.fdroid
+adb start-server && adb shell am force-stop com.google.android.gm
+adb start-server && adb shell am force-stop com.android.chrome
+adb start-server && adb shell am force-stop cm.aptoide.pt
+adb start-server && adb shell am force-stop com.ceyhan.sets
+adb start-server && adb shell am force-stop com.mi.android.globalFileexplorer
+adb start-server && adb shell am force-stop com.piriform.ccleaner
+adb start-server && adb shell am force-stop com.cleanmaster.mguard
