@@ -1,3 +1,5 @@
+
+adb start-server && adb shell pm uninstall --user 0 de.telekom.tsc
 adb start-server && adb shell pm uninstall --user 0 com.google.android.cellbroadcastreceiver
 adb start-server && adb shell pm uninstall --user 0 com.qualcomm.wfd.service
 adb start-server && adb shell pm uninstall --user 0 com.qualcomm.qti.lpa
