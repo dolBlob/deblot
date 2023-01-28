@@ -105,3 +105,5 @@ adb start-server && adb shell pm uninstall --user 0 com.aura.oobe.bouygues
 adb start-server && adb shell pm uninstall --user 0 com.google.android.marvin.talkback
 adb start-server && adb shell pm uninstall --user 0 com.miui.cotaservice
 adb start-server && adb shell pm uninstall --user 0 com.xiaomi.miplay_client
+adb start-server && adb shell pm uninstall --user 0 com.miui.powerkeeper
+adb start-server && adb shell pm uninstall --user 0 com.google.android.dialer
