@@ -137,3 +137,4 @@ adb start-server && adb shell pm uninstall --user 0 com.qti.snapdragon.qdcm_ff
 adb start-server && adb shell pm uninstall --user 0 com.fingerprints.sensortesttool
 adb start-server && adb shell pm uninstall --user 0 com.android.soundpicker
 adb start-server && adb shell pm uninstall --user 0 com.google.android.apps.youtube.music
+adb start-server && adb shell pm uninstall --user 0 com.miuix.editor
