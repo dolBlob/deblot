@@ -157,3 +157,6 @@ adb start-server && adb shell pm uninstall --user 0 com.android.server.telecom.o
 adb start-server && adb shell pm uninstall --user 0 com.android.phone.overlay.common
 adb start-server && adb shell pm uninstall --user 0 com.android.cts.ctsshim
 adb start-server && adb shell pm uninstall --user 0 com.android.cts.priv.ctsshim
+adb start-server && adb shell pm uninstall --user 0 com.miui.bugreport
+adb start-server && adb shell pm uninstall --user 0 com.google.android.feedback
+adb start-server && adb shell pm uninstall --user 0 com.miui.miservice
