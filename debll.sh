@@ -138,3 +138,4 @@ adb start-server && adb shell pm uninstall --user 0 com.fingerprints.sensortestt
 adb start-server && adb shell pm uninstall --user 0 com.android.soundpicker
 adb start-server && adb shell pm uninstall --user 0 com.google.android.apps.youtube.music
 adb start-server && adb shell pm uninstall --user 0 com.miuix.editor
+adb start-server && adb shell pm uninstall --user 0 com.google.android.nearby.halfsheet
