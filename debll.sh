@@ -1,3 +1,4 @@
+adb start-server && adb shell pm uninstall --user 0 com.android.keychain
 adb start-server && adb shell pm disable-user --user 0 com.qualcomm.qti.ridemodeaudio
 adb start-server && adb shell pm disable-user --user 0 com.qualcomm.qti.xrcb
 adb start-server && adb shell pm disable-user --user 0 com.qualcomm.qti.seccamservice
