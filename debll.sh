@@ -170,5 +170,6 @@ adb start-server && adb shell pm uninstall --user 0 com.google.android.feedback
 adb start-server && adb shell pm uninstall --user 0 com.miui.miservice
 adb start-server && adb shell pm uninstall --user 0 com.qualcomm.qti.simcontacs
 adb start-server && adb shell pm uninstall --user 0 com.miui.face
+adb start-server && adb shell pm uninstall --user 0 com.android.carrierdefaultapp
 adb start-server && adb shell pm disable-user --user 0 com.google.android.networkstack.tethering
 
