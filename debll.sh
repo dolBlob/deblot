@@ -1,7 +1,6 @@
 
 adb start-server && adb shell pm disable-user --user 0 com.qualcomm.qti.xrcb
 adb start-server && adb shell pm disable-user --user 0 com.qualcomm.qti.seccamservice
-adb start-server && adb shell pm disable-user --user 0 com.google.android.networkstack.tethering
 adb start-server && adb shell pm disable-user --user 0 vendor.qti.imsrcs
 adb start-server && adb shell pm disable-user --user 0 vendor.qti.iwlan
 adb start-server && adb shell pm uninstall --user 0 com.android.proxyhandler
@@ -170,3 +169,5 @@ adb start-server && adb shell pm uninstall --user 0 com.miui.bugreport
 adb start-server && adb shell pm uninstall --user 0 com.google.android.feedback
 adb start-server && adb shell pm uninstall --user 0 com.miui.miservice
 adb start-server && adb shell pm uninstall --user 0 com.qualcomm.qti.simcontacs
+adb start-server && adb shell pm disable-user --user 0 com.google.android.networkstack.tethering
+
