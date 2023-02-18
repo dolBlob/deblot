@@ -1,6 +1,6 @@
 
-
-
+adb start-server && adb shell pm disable-user --user 0 vendor.qti.imsrcs
+adb start-server && adb shell pm disable-user --user 0 vendor.qti.iwlan
 adb start-server && adb shell pm uninstall --user 0 com.android.proxyhandler
 adb start-server && adb shell pm disable-user --user 0 com.android.provision
 adb start-server && adb shell pm uninstall --user 0 com.xiaomi.mtb
