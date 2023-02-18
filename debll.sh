@@ -1,5 +1,5 @@
 
-
+adb start-server && adb shell pm disable-user --user 0 com.android.provision
 adb start-server && adb shell pm uninstall --user 0 com.xiaomi.mtb
 adb start-server && adb shell pm disable-user --user 0 com.android.nfc
 adb start-server && adb shell pm uninstall --user 0 com.android.backupconfirm
